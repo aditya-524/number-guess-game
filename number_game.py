@@ -1,6 +1,5 @@
 import art
 import replit
-import art2
 import time
 import random
 iter=0
@@ -34,7 +33,7 @@ while counter is True:
   art.logo()
   print("Welcome to the Number Guessing Game ")
   print("Processing a Number between 1 and 100 ")
-  art2.logo2()
+  art.logo2()
   time.sleep(1)
   clear_line(8)
   inp=input("Choose a Difficulty Type \n Type 'Easy' or 'Hard' : ")
